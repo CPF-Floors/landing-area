@@ -5,7 +5,8 @@ function MainBanner() {
     <div className="main-banner">
         <Header />
         <img src="/logo.svg" alt="" />
-        <h1>WHERE AMBITION <br /> MEETS BALANCE</h1>
+        <h1>WHERE AMBITION MEETS BALANCE</h1>
+        <div className="stay-updated"><p>Stay Updated</p></div>
     </div>
   )
 }
