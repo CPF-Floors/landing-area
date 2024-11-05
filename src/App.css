@@ -440,7 +440,34 @@ header {
   }
 }
 
+@media(max-width:720px){
+  .banner-form-container{
+    padding: 20px;
+    .banner-form-text{
+      width: 100%;
+      text-align: center;
+    }
+    .banner-form{
+      width: 100%;
+      padding: 0;
+      form{
+        padding: 0;
+        .dual-input{
+          width: 100%;
+          flex-direction: column;
+          input{
+            width: 100%;
+            margin: 15px 0;
+          }
+          select{
+            margin: 15px 0;
 
+          }
+        }
+      }
+    }
+  }
+}
 
 
 
