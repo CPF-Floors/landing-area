@@ -497,3 +497,32 @@ footer{
     }
   }
 }
+
+.success{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(46, 46, 46, 0.947);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 100;
+  backdrop-filter: (8px);
+  h2{
+    color: white;
+    margin: 25px 0;
+  }
+  p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    margin: 40px;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { AnimatePresence, motion } from "framer-motion";
 
-const BACKEND_URL =
-  "https://talula-contractors-backend-production.up.railway.app/";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
+
 
 const sentData = async (data) => {
   const dataFormatted = {
@@ -35,8 +35,9 @@ const Form = () => {
   } = useForm();
 
   const onSubmit = async (data) => {
-    const status = await sentData(data);
 
+    const status = await sentData(data);
+    
     if (status === 200) {
       setSuccess(!success);
       reset();
@@ -89,7 +90,7 @@ const Form = () => {
           <div className="input">
             <label>Membership type</label>
 
-            <select name="membershipType" id="membershipType">
+            <select  {...register("membershipType", { required: true })} name="membershipType" id="membershipType">
               <option value="Lounge">Lounge</option>
               <option value="Flex Desk">Flex Desk</option>
               <option value="Station">Station</option>
@@ -118,7 +119,9 @@ const Form = () => {
             className="success"
             onClick={() => setSuccess(false)}
           >
-            <img src="/sucsess.png" alt="" onClick={() => setSuccess(false)} />
+            <img src="/landing-area/logo.svg" alt="" />
+            <p onClick={() => setSuccess(false)}>Close</p>
+            <h2>Thanks for your subscription</h2>
           </motion.div>
         </AnimatePresence>
       )}
