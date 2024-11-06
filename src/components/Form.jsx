@@ -119,7 +119,7 @@ const Form = () => {
             className="success"
             onClick={() => setSuccess(false)}
           >
-            <img src="/landing-area/logo.svg" alt="" />
+            <img src="/logo.svg" alt="" />
             <p onClick={() => setSuccess(false)}>Close</p>
             <h2>Thanks for your subscription</h2>
           </motion.div>
