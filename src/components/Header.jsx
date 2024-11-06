@@ -11,7 +11,7 @@ function Header() {
           <a href="#facilities">Facilities</a>
           <a href="#services">Services</a>
         </div>
-        <img onClick={() => setNav(!nav)} src="/header-logo.svg" alt="" />
+        <img onClick={() => setNav(!nav)} src="/landing-area/header-logo.svg" alt="" />
         <div className="link-container">
           <a href="/">About</a>
           <a href="#facilities">Gallery</a>
