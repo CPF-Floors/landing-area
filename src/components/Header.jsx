@@ -22,12 +22,8 @@ function Header() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <a href="">Home</a>
-            <a href="">Facilities</a>
-            <a href="">Services</a>
-            <a href="">About</a>
-            <a href="">Gallery</a>
-            <a href="">Contact</a>
+            <a href="/">Home</a>
+            <a href="#contact" onClick={()=> setNav(false)}>Contact</a>
           </motion.div>
         )}
       </AnimatePresence>

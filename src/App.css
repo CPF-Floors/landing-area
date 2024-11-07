@@ -70,6 +70,10 @@
   }
 }
 
+p{
+  font-family: "Inter", sans-serif;
+}
+
 /*MAIN BANNER*/
 
 .main-banner {
@@ -203,7 +207,6 @@ header {
     }
     p {
       font-size: 22px;
-      margin-bottom: 60px;
     }
     a {
       color: white;
@@ -225,11 +228,11 @@ header {
       text-align: center;
       width: 100%;
       h2 {
-        font-size: 25px;
+        font-size: 40px;
         margin-bottom: 25px;
       }
       p {
-        font-size: 16px;
+        font-size: 18px;
       }
       a {
         padding: 20px;
@@ -340,7 +343,7 @@ header {
     color: white;
     font-size: 100px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
   }
   a{
     color: white;
@@ -352,6 +355,8 @@ header {
 }
 @media(max-width: 720px){
   .coming-soon{
+    height: auto;
+    padding: 80px 20px;
     h2{
       font-size: 65px;
     }
@@ -374,6 +379,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  color: black;
   .banner-form-text{
     width: 50%;
     padding: 40px;
@@ -383,60 +389,92 @@ header {
     }
     p{
       font-size: 28px;
+      color: black;
     }
   }
   .banner-form{
     width: 50%;
-    padding: 20px;
     form{
       width: 100%;
       input{
         padding: 15px;
         border: 1px solid rgb(226, 226, 226);
         border-radius: 32px;
-        margin: 15px;
+        margin: 15px 0;
       }
       .dual-input {
         width: 100%;
         display: flex;
+        justify-content: space-between;
+        input{
+          width: 100%;
+        }
       }
       .input {
+        position: relative;
         width: 100%;
         display: flex;
         flex-direction: column;
         margin-bottom: 20px;
+        padding: 15px;
         label {
           margin: 0 15px;
           font-weight: 600;
+          color: black;
+        }
+        img{
+          position: absolute;
+          right: 7%;
+          top: 52%;
+          height: 12%;
+          cursor: pointer;
+          z-index: 1;
+          opacity: 0.6;
+
         }
       }
       select{
         padding: 15px 20px;
         border: 1px solid rgb(226, 226, 226);
         border-radius: 32px;
-        margin: 15px;
-        img{
-          margin-right: 20px !important;
-        }
+        margin: 15px 0;
+        background-color: transparent;
+        -moz-appearance: none; /*Firefox legacy*/
+        -webkit-appearance: none; /* Chromes legacy*/
+        appearance: none;
+        z-index: 10;
+        cursor: pointer;
+      }
+      input::before{
+        content: "";
+        background-color: red;
       }
       span {
-        color: red;
+        color: white;
         margin: 0 15px;
       }
       button{
-        background-color: black;
+        background-color: #A59D86;
         color: white;
         width: 100%;
-        padding: 20px;
+        padding: 20px 0;
         border-radius: 32px;
         font-size: 18px;
         font-weight: 500;
         cursor: pointer;
+        transition: 0.5s;
+        border: 1px solid white;
+        margin: 15px 0;
         option{
           border-radius: 18px;
           background-color: white;
           color: black;
         }
+      }
+      button:hover{
+        background-color: #34647E;
+        color: white;
+        border: 1px solid white
       }
     }
   }
@@ -444,7 +482,7 @@ header {
 
 @media(max-width:720px){
   .banner-form-container{
-    padding: 20px;
+    padding: 40px 10px;
     .banner-form-text{
       width: 100%;
       text-align: center;
@@ -457,6 +495,7 @@ header {
         .dual-input{
           width: 100%;
           flex-direction: column;
+          margin-bottom: 0;
           input{
             width: 100%;
             margin: 15px 0;
@@ -482,7 +521,8 @@ footer{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #f3f3f3;
+  background-color: #34647E;
+  color: white;
   .footer-card{
     text-align: center;
     img{
@@ -494,7 +534,7 @@ footer{
     }
     a{
       text-decoration: none;
-      color: black;
+      color: white;
       font-weight: 500;
     }
   }

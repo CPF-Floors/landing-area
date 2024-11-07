@@ -11,8 +11,8 @@ function App() {
     <>
         <MainBanner />
         <SecondBanner />
-        <ComingSoon />
         <FormBanner />
+        <ComingSoon />
         <Footer />
     </>
   )
