@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /*LOAD SCREEN*/
@@ -101,7 +102,7 @@
 @media (max-width: 720px) {
   .main-banner {
     img {
-      height: 60px;
+      height: 50px;
     }
     h1 {
       font-size: 35px;
@@ -430,6 +431,7 @@ header {
         border-radius: 32px;
         font-size: 18px;
         font-weight: 500;
+        cursor: pointer;
         option{
           border-radius: 18px;
           background-color: white;

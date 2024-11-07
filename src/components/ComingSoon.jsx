@@ -4,7 +4,7 @@ function ComingSoon() {
   return (
     <div className="coming-soon">
         <h2>COMING <br />SOON</h2>
-        <a href="">STAY TUNED FOR THE OPNENING DAY</a>
+        <a href="#form">STAY TUNED FOR THE OPNENING DAY</a>
     </div>
   )
 }
