@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { AnimatePresence, motion } from "framer-motion";
 
-const BACKEND_URL =
-  "https://talula-contractors-backend-production.up.railway.app/";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
+
 
 const sentData = async (data) => {
   const dataFormatted = {
@@ -35,8 +35,9 @@ const Form = () => {
   } = useForm();
 
   const onSubmit = async (data) => {
-    const status = await sentData(data);
 
+    const status = await sentData(data);
+    
     if (status === 200) {
       setSuccess(!success);
       reset();
@@ -52,15 +53,15 @@ const Form = () => {
               <label>First Name</label>
               <input
                 {...register("firstName", { required: true })}
-                placeholder="Joe Smith"
+                placeholder="Joe"
               />
-              {errors.fullName && <span>This field is required</span>}
+              {errors.firstName && <span>This field is required</span>}
             </div>
             <div className="input">
               <label>Your E-mail</label>
               <input
                 {...register("email", { required: true })}
-                placeholder="example@mailto.co"
+                placeholder="example@yourmail.com"
               />
               {errors.email && <span>This field is required</span>}
             </div>
@@ -70,10 +71,10 @@ const Form = () => {
             <div className="input">
               <label>Last Name</label>
               <input
-                {...register("lastName", { required: false })}
-                placeholder="Last Name"
+                {...register("lastName", { required: true })}
+                placeholder="Smith"
               />
-              {errors.companyName && <span>This field is required</span>}
+              {errors.lastName && <span>This field is required</span>}
             </div>
 
             <div className="input">
@@ -88,14 +89,17 @@ const Form = () => {
 
           <div className="input">
             <label>Membership type</label>
-
-            <select name="membershipType" id="membershipType">
+            <img src="/drop.svg" alt="" />
+            <select  {...register("membershipType", { required: true })} name="membershipType" id="membershipType">
+  
               <option value="Lounge">Lounge</option>
               <option value="Flex Desk">Flex Desk</option>
               <option value="Station">Station</option>
               <option value="Private Office">Private Office</option>
             </select>
+            
           </div>
+          {errors.membershipType && <span>This field is required</span>}
 
           <div className="submit">
             <button type="submit">
@@ -118,7 +122,9 @@ const Form = () => {
             className="success"
             onClick={() => setSuccess(false)}
           >
-            <img src="/sucsess.png" alt="" onClick={() => setSuccess(false)} />
+            <img src="/logo.svg" alt="" />
+            <p onClick={() => setSuccess(false)}>Close</p>
+            <h2>Thanks for your subscription</h2>
           </motion.div>
         </AnimatePresence>
       )}

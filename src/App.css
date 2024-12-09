@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /*LOAD SCREEN*/
@@ -67,6 +68,10 @@
   80% {
     transform: scale(1.2);
   }
+}
+
+p{
+  font-family: "Inter", sans-serif;
 }
 
 /*MAIN BANNER*/
@@ -424,6 +429,7 @@ header {
     }
     p {
       font-size: 28px;
+      color: black;
     }
     span{
       color: #0c5a80;
@@ -438,20 +444,37 @@ header {
         padding: 15px;
         border: 1px solid rgb(226, 226, 226);
         border-radius: 32px;
-        margin: 15px;
+        margin: 15px 0;
       }
       .dual-input {
         width: 100%;
         display: flex;
+        justify-content: space-between;
+        input{
+          width: 100%;
+        }
       }
       .input {
+        position: relative;
         width: 100%;
         display: flex;
         flex-direction: column;
         margin-bottom: 20px;
+        padding: 15px;
         label {
           margin: 0 15px;
           font-weight: 600;
+          color: black;
+        }
+        img{
+          position: absolute;
+          right: 7%;
+          top: 52%;
+          height: 12%;
+          cursor: pointer;
+          z-index: 1;
+          opacity: 0.6;
+
         }
       }
       select {
@@ -464,14 +487,14 @@ header {
         }
       }
       span {
-        color: red;
+        color: white;
         margin: 0 15px;
       }
       button {
         background-color: #0c5a80;
         color: white;
         width: 100%;
-        padding: 20px;
+        padding: 20px 0;
         border-radius: 32px;
         font-size: 18px;
         font-weight: 500;
@@ -482,6 +505,11 @@ header {
           background-color: white;
           color: black;
         }
+      }
+      button:hover{
+        background-color: #34647E;
+        color: white;
+        border: 1px solid white
       }
     }
   }
@@ -536,8 +564,37 @@ footer {
     }
     a {
       text-decoration: none;
-      color: black;
+      color: white;
       font-weight: 500;
     }
+  }
+}
+
+.success{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(46, 46, 46, 0.947);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 100;
+  backdrop-filter: (8px);
+  h2{
+    color: white;
+    margin: 25px 0;
+  }
+  p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    margin: 40px;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
   }
 }

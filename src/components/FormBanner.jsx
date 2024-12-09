@@ -2,7 +2,7 @@ import Form from "./Form"
 
 function FormBanner() {
   return (
-    <div className="banner-form-container">
+    <div id="contact" className="banner-form-container">
         <div className="banner-form-text">
             <h2>A NEW WAY TO <br />THRIVE<span> STARTS NOW</span></h2>
             <p>Become a founding member and <br /> 
