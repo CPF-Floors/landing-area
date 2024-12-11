@@ -7,11 +7,14 @@ function Header() {
     <>
       <header>
         <div className="link-container">
-
+            <a href="/">Home</a>
+            <a href="#facilities">Facilities</a>
         </div>
         <img onClick={() => setNav(!nav)} src="/black-logo.svg" alt="" />
         <div className="link-container">
-
+        <a href="#memberships">Memberships</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
         </div>
       </header>
       <AnimatePresence>

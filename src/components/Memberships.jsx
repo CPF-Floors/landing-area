@@ -1,7 +1,7 @@
 function Memberships() {
   return (
     <>
-      <div className="memberships-container">
+      <div id="memberships" className="memberships-container">
         <h2>MEMBERSHIPS</h2>
         <p>
           Choosing AREA CENTRE means maximizing your investment- not just in
@@ -10,7 +10,7 @@ function Memberships() {
           while also offering spaces to <br /> unwind, recharge, and connect
           with fellow makers and creators.
         </p>
-        <a className="membership-link" href="">
+        <a className="membership-link" href="#contact">
           Find Your Membership
         </a>
         <div className="memberships-cards-container">
@@ -23,7 +23,7 @@ function Memberships() {
               Enjoy a fully equipped Private Office, perfect for individuals/
               team looking to have their own space.
             </p>
-            <a href="">EXPLORE</a>
+            <a href="#contact">EXPLORE</a>
           </div>
           <div className="membership-card">
             <div className="membership-card-title">
@@ -38,7 +38,7 @@ function Memberships() {
             <p>
               Note: For teams of two request for the dual-desk configuration
             </p>
-            <a href="">EXPLORE</a>
+            <a href="#contact">EXPLORE</a>
           </div>
           <div className="membership-card">
             <div className="membership-card-title">
@@ -50,7 +50,7 @@ function Memberships() {
               our private coworking areas, perfect for freelancers or those
               seeking a dynamic workspace.
             </p>
-            <a href="">EXPLORE</a>
+            <a href="#contact">EXPLORE</a>
           </div>
           <div className="membership-card">
             <div className="membership-card-title">
@@ -62,11 +62,11 @@ function Memberships() {
               flexible option for those needing a professional space without a
               fixed desk.
             </p>
-            <a href="">EXPLORE</a>
+            <a href="#contact">EXPLORE</a>
           </div>
         </div>
       </div>
-      <div className="includes-container">
+      <div id="about" className="includes-container">
         <h2>MEMBERSHIP INCLUDES</h2>
         <div className="includes">
           <img src="/1.svg" alt="" />

@@ -1,6 +1,6 @@
 function SecondBanner() {
   return (
-    <div className="second-banner">
+    <div id="facilities" className="second-banner">
       <div className="second-banner-text">
         <div>
           <h2>
@@ -12,7 +12,7 @@ function SecondBanner() {
           </p>
         </div>
         <div>
-          <a href="">Find Your Membership</a>
+          <a href="#contact">Find Your Membership</a>
         </div>
       </div>
 

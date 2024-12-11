@@ -14,7 +14,7 @@ function MainBanner() {
           AREA is where your professional drive meets a <br /> space that
           supports your lifestyle goals
         </h2>
-        <a className="link" href="">
+        <a className="link" href="#contact">
           Become a Founding Member
         </a>
         </div>
