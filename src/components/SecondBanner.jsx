@@ -4,11 +4,13 @@ function SecondBanner() {
       <div className="second-banner-text">
         <div>
           <h2>
-            For makers <br /> and <span>creators</span>
+            Multi-use <br />
+            <span>spaces</span>
           </h2>
           <p>
-            who value both productivity <br />
-            and well-being
+            Multi-use spaces Welcome to a new way of thriving, where work, play,
+            and community come together.
+            <br />
           </p>
         </div>
         <div>

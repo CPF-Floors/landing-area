@@ -93,6 +93,7 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: end;
     h1 {
       font-size: 40px;
       margin-bottom: 20px;
@@ -272,11 +273,13 @@ header {
       margin-bottom: 40px;
       p {
         color: white;
-        font-size: 30px;
+        font-size: 40px;
+        font-weight: 700;
       }
       span {
         color: #ffc602;
-        font-size: 30px;
+        font-size: 40px;
+        font-weight: 700;
       }
     }
     .second-banner-card {
