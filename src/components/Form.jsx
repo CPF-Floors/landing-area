@@ -26,7 +26,7 @@ const sentData = async (data) => {
 };
 
 const Form = () => {
-  const [success, setSuccess] = useState(false);
+  const [success, setSuccess] = useState(true);
   const {
     register,
     handleSubmit,
@@ -58,17 +58,6 @@ const Form = () => {
               {errors.firstName && <span>This field is required</span>}
             </div>
             <div className="input">
-              <label>Your E-mail</label>
-              <input
-                {...register("email", { required: true })}
-                placeholder="example@yourmail.com"
-              />
-              {errors.email && <span>This field is required</span>}
-            </div>
-          </div>
-
-          <div className="dual-input">
-            <div className="input">
               <label>Last Name</label>
               <input
                 {...register("lastName", { required: true })}
@@ -76,6 +65,18 @@ const Form = () => {
               />
               {errors.lastName && <span>This field is required</span>}
             </div>
+           
+          </div>
+          <div className="dual-input">
+          <div className="input">
+              <label>Your E-mail</label>
+              <input
+                {...register("email", { required: true })}
+                placeholder="example@yourmail.com"
+              />
+              {errors.email && <span>This field is required</span>}
+            </div>
+           
 
             <div className="input">
               <label>Phone Number</label>
@@ -124,7 +125,7 @@ const Form = () => {
           >
             <img src="/logo.svg" alt="" />
             <p onClick={() => setSuccess(false)}>Close</p>
-            <h2>Thanks for your subscription</h2>
+            <h2>Thank you for <br /> your subscription</h2>
           </motion.div>
         </AnimatePresence>
       )}

@@ -142,10 +142,14 @@ p{
       }
     }
     .main-banner-img {
-      display: none;
+      width: 100%;
+      img{
+        height: 70%;
+        width: auto;
+      }
     }
     .big-logo {
-      height: 100px;
+      height: 60px;
       width: auto;
     }
   }
@@ -613,5 +617,19 @@ footer {
     font-size: 18px;
     text-decoration: underline;
     cursor: pointer;
+  }
+}
+
+@media(max-width: 980px){
+  .success{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    img{
+      width: 60%;
+    }
+    p{
+      text-align: center;
+    }
   }
 }

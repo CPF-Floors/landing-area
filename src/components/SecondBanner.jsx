@@ -8,7 +8,7 @@ function SecondBanner() {
             <span>spaces</span>
           </h2>
           <p>
-            Multi-use spaces Welcome to a new way of thriving, where work, play,
+            Welcome to a new way of thriving, where work, play,
             and community come together.
             <br />
           </p>
