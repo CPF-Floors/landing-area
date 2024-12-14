@@ -23,7 +23,9 @@ function Header() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <a href="/">Home</a>
+            <a href="/"onClick={()=> setNav(false)}>Home</a>
+            <a href="#facilities"onClick={()=> setNav(false)}>Facilities</a>
+            <a href="#memberships"onClick={()=> setNav(false)}>Memberships</a>
             <a href="#contact" onClick={()=> setNav(false)}>Contact</a>
           </motion.div>
         )}

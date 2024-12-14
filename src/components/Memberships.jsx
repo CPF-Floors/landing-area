@@ -69,16 +69,40 @@ function Memberships() {
       <div id="about" className="includes-container">
         <h2>MEMBERSHIP INCLUDES</h2>
         <div className="includes">
-          <img src="/1.svg" alt="" />
-          <img src="/2.svg" alt="" />
-          <img src="/3.svg" alt="" />
-          <img src="/4.svg" alt="" />
+          <div>
+            <img src="/m1.svg" alt="" />
+            <p>Padel Courts</p>
+          </div>
+          <div>
+            <img src="/m2.svg" alt="" />
+            <p>Phone Both</p>
+          </div>
+          <div>
+            <img src="/m3.svg" alt="" />
+            <p>Rest Room</p>
+          </div>
+          <div>
+            <img src="/m4.svg" alt="" />
+            <p>Showers</p>
+          </div>
         </div>
-        <div className="includes">
-          <img src="/5.svg" alt="" />
-          <img src="/6.svg" alt="" />
-          <img src="/7.svg" alt="" />
-          <img src="/8.png" alt="" />
+        <div className="includes-2">
+          <div>
+            <img src="/m5.svg" alt="" />
+            <p>Bathrooms</p>
+          </div>
+          <div>
+            <img src="/m6.svg" alt="" />
+            <p>Coffee</p>
+          </div>
+          <div>
+            <img src="/m7.svg" alt="" />
+            <p>Community</p>
+          </div>
+          <div>
+            <img src="/m8.svg" alt="" />
+            <p>Meeting Rooms</p>
+          </div>
         </div>
       </div>
     </>

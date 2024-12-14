@@ -26,7 +26,7 @@ const sentData = async (data) => {
 };
 
 const Form = () => {
-  const [success, setSuccess] = useState(true);
+  const [success, setSuccess] = useState(false);
   const {
     register,
     handleSubmit,
