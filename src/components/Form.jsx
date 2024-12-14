@@ -90,7 +90,6 @@ const Form = () => {
 
           <div className="input">
             <label>Membership type</label>
-            <img src="/drop.svg" alt="" />
             <select  {...register("membershipType", { required: true })} name="membershipType" id="membershipType">
   
               <option value="Lounge">Lounge</option>

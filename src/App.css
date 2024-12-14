@@ -550,7 +550,7 @@ header {
         padding: 15px 20px;
         border: 1px solid rgb(226, 226, 226);
         border-radius: 32px;
-        margin: 15px;
+        margin: 15px 0 !important;
         img {
           margin-right: 20px !important;
         }
@@ -605,7 +605,7 @@ header {
             margin: 15px 0;
           }
           select {
-            margin: 15px 0;
+            margin: 15px 0 !important;
           }
         }
       }
@@ -737,7 +737,7 @@ footer {
 .last-banner {
   height: 100vh;
   width: 100%;
-  background-image: url("last.png");
+  background-image: url("/last.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

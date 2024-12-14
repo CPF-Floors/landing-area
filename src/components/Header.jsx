@@ -27,6 +27,7 @@ function Header() {
             <a onClick={() => setNav(false)} href="/">Home</a>
             <a onClick={() => setNav(false)} href="#facilities">Facilities</a>
             <a onClick={() => setNav(false)} href="#memberships">Services</a>
+            <a onClick={() => setNav(false)} href="#contact">Contact</a>
           </motion.div>
         )}
       </AnimatePresence>
