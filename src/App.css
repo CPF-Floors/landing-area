@@ -70,7 +70,7 @@
   }
 }
 
-p{
+p {
   font-family: "Inter", sans-serif;
 }
 
@@ -138,13 +138,13 @@ p{
       span {
         font-size: 35px;
       }
-      a{
+      a {
         padding: 10px;
       }
     }
     .main-banner-img {
       width: 100%;
-      img{
+      img {
         height: 70%;
         width: auto;
       }
@@ -237,7 +237,7 @@ header {
   align-items: center;
   width: 100%;
   height: 900px;
-  .second-banner-text{
+  .second-banner-text {
     position: relative;
     height: 100%;
     width: 40%;
@@ -248,22 +248,22 @@ header {
     background-image: url("/sb.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 0 ;
+    background-position-y: 0;
     color: white;
     font-size: 32px;
     padding: 40px;
     padding-bottom: 80px;
-    span{
+    span {
       color: #ffc602;
     }
-    a{
+    a {
       border: 3px solid #0c5a80;
       color: white;
       font-weight: 400;
       text-decoration: none;
       padding: 15px 35px;
       border-radius: 30px;
-     font-size: 18px;
+      font-size: 18px;
     }
   }
   .second-banner-cards-container {
@@ -307,26 +307,26 @@ header {
   .second-banner {
     height: auto;
     flex-direction: column;
-    .second-banner-text{
+    .second-banner-text {
       width: 100%;
       background-position: bottom;
       text-align: center;
-      p{
+      p {
         margin-bottom: 80px;
-        
       }
     }
-    .second-banner-cards-container{
+    .second-banner-cards-container {
       width: 100%;
-      .second-banner-cards-title{
+      .second-banner-cards-title {
         width: 100%;
         text-align: center;
         font-size: 16px;
-        p, span{
+        p,
+        span {
           font-size: 50px;
         }
       }
-      .second-banner-card{
+      .second-banner-card {
         flex-direction: column;
         text-align: center;
       }
@@ -336,55 +336,59 @@ header {
 
 /*MEMBERSHIPS*/
 
-.memberships-container{
+.memberships-container {
   background-color: black;
   width: 100%;
   height: auto;
   color: white;
   text-align: center;
   padding: 80px 40px;
-  h2{
+  h2 {
     font-size: 42px;
     margin-bottom: 40px;
   }
-  a{
+  a {
     text-decoration: none;
     color: white;
     border: 2px solid #0c5a80;
     padding: 15px 35px;
     border-radius: 30px;
   }
-  .membership-link{
+  .membership-link {
     border-color: white;
   }
-  p{
+  p {
     margin-bottom: 80px;
   }
-  .memberships-cards-container{
+  .memberships-cards-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: start;
     margin: 40px 0;
-    .membership-card{
+    .membership-card {
       margin: 20px;
       width: 20%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       height: 400px;
-      p{
+      p {
         margin: 0;
         text-align: start;
       }
-      .membership-card-title{
+      span{
+        font-size: 14px;
+        text-align: start;
+      }
+      .membership-card-title {
         padding: 20px;
         border-top: 2px solid #0c5a80;
         border-bottom: 2px solid #0c5a80;
-        h2{
+        h2 {
           font-size: 22px;
         }
-        p{
+        p {
           margin: 0;
         }
       }
@@ -392,64 +396,87 @@ header {
   }
 }
 
-
-.includes-container{
+.includes-container {
   background-color: #0c5a80;
   color: white;
   text-align: center;
   padding: 80px 40px;
-  h2{
+  h2 {
     font-size: 32px;
     margin-bottom: 80px;
   }
-  .includes{
+  .includes {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    img{
+    img {
       margin: 40px;
       margin-bottom: 10px;
     }
   }
-  .includes-2{
+  .includes-2 {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    img{
+    img {
       margin: 40px 60px;
       margin-bottom: 10px;
     }
   }
 }
 
-@media(max-width: 980px){
-  .memberships-container{
-    .memberships-cards-container{
-      .membership-card{
+.includes-container-mobile {
+  background-color: #0c5a80;
+  color: white;
+  text-align: center;
+  padding: 80px 40px;
+  .includes-mobile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .includes-card-mobile{
+      width: 30%;
+      margin: 20px;
+    }
+
+  }
+  h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .includes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    img {
+      margin: 40px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .memberships-container {
+    .memberships-cards-container {
+      .membership-card {
         width: 100%;
         margin-bottom: 40px;
       }
     }
   }
-  
-  .includes{
-    img{
-      width: 30%;
-      margin: 40px;
-    }
-  }
-  .includes-2{
-    img{
-      margin: 40px !important;
-      width: 30%;
-    }
-  }
 
-  img::nth-child(5){
-    width: 40%;  
-  } 
+  .includes-container{
+    display: none;
+  }
+}
+@media(min-width: 980px){
+  .includes-container-mobile{
+    display: none
+  }
 }
 
 /*FORM*/
@@ -474,7 +501,7 @@ header {
       font-size: 28px;
       color: black;
     }
-    span{
+    span {
       color: #0c5a80;
     }
   }
@@ -493,7 +520,7 @@ header {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        input{
+        input {
           width: 100%;
         }
       }
@@ -509,7 +536,7 @@ header {
           font-weight: 600;
           color: black;
         }
-        img{
+        img {
           position: absolute;
           right: 7%;
           top: 52%;
@@ -517,7 +544,6 @@ header {
           cursor: pointer;
           z-index: 1;
           opacity: 0.6;
-
         }
       }
       select {
@@ -549,10 +575,10 @@ header {
           color: black;
         }
       }
-      button:hover{
-        background-color: #34647E;
+      button:hover {
+        background-color: #34647e;
         color: white;
-        border: 1px solid white
+        border: 1px solid white;
       }
     }
   }
@@ -592,12 +618,13 @@ header {
 footer {
   width: 100%;
   padding: 80px 40px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #0c5a80;
-  color: white;
+  background-color: white;
+  color: black;
   .footer-card {
     text-align: center;
     img {
@@ -605,17 +632,22 @@ footer {
       margin-bottom: 15px;
     }
     h3 {
-      margin-bottom: 15px;
+      margin-bottom: 5px;
     }
     a {
       text-decoration: none;
-      color: white;
+      color: black;
       font-weight: 500;
+    }
+    p{
+      margin: 40px;
+      text-decoration: underline;
+      cursor: pointer;
     }
   }
 }
 
-.success{
+.success {
   position: fixed;
   top: 0;
   left: 0;
@@ -628,11 +660,11 @@ footer {
   flex-direction: column;
   z-index: 100;
   backdrop-filter: (8px);
-  h2{
+  h2 {
     color: white;
     margin: 25px 0;
   }
-  p{
+  p {
     position: absolute;
     top: 0;
     right: 0;
@@ -644,16 +676,90 @@ footer {
   }
 }
 
+.terms{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.945);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 80px;
+  z-index: 100;
+  text-align: start;
+  backdrop-filter: blur(8px);
+  h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  h3{
+    margin: 15px 0;
+  }
+  .close{
+    position: absolute;
+    right: 0;
+    margin: 40px;
+    top: 0;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
 @media(max-width: 980px){
-  .success{
+  .terms{
+    padding: 25px;
+    h2{
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+
+@media (max-width: 980px) {
+  .success {
     height: 100vh;
     width: 100vw;
     text-align: center;
-    img{
+    img {
       width: 60%;
     }
-    p{
+    p {
       text-align: center;
+    }
+  }
+}
+
+.last-banner {
+  height: 100vh;
+  width: 100%;
+  background-image: url("last.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  h2, span{
+    font-size: 110px;
+    font-weight: 600;
+  }
+  span{
+    color: #ffc602;
+  }
+}
+
+
+@media(max-width:980px){
+  .last-banner{
+    height: 60vh;
+    h2, span{
+      font-size: 60px;
     }
   }
 }

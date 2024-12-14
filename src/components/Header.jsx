@@ -9,10 +9,11 @@ function Header() {
         <div className="link-container">
             <a href="/">Home</a>
             <a href="#facilities">Facilities</a>
+            <a href="#memberships">Services</a>
         </div>
         <img onClick={() => setNav(!nav)} src="/black-logo.svg" alt="" />
         <div className="link-container">
-        <a href="#memberships">Memberships</a>
+        <a href="#contact">Contact</a>
         </div>
       </header>
       <AnimatePresence>
@@ -23,10 +24,9 @@ function Header() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <a href="/"onClick={()=> setNav(false)}>Home</a>
-            <a href="#facilities"onClick={()=> setNav(false)}>Facilities</a>
-            <a href="#memberships"onClick={()=> setNav(false)}>Memberships</a>
-            <a href="#contact" onClick={()=> setNav(false)}>Contact</a>
+            <a onClick={() => setNav(false)} href="/">Home</a>
+            <a onClick={() => setNav(false)} href="#facilities">Facilities</a>
+            <a onClick={() => setNav(false)} href="#memberships">Services</a>
           </motion.div>
         )}
       </AnimatePresence>

@@ -27,16 +27,6 @@ function SecondBanner() {
         <div className="second-banner-card">
           <img src="/c1.png" alt="" />
           <div className="card-text">
-            <h2>Multi-use spaces</h2>
-            <p>
-              Welcome to a new way of thriving, where work, play, and community
-              come together.
-            </p>
-          </div>
-        </div>
-        <div className="second-banner-card">
-          <img src="/c2.png" alt="" />
-          <div className="card-text">
             <h2>Coworking</h2>
             <p>
               Private and inspiring spaces featuring 18 private offices,

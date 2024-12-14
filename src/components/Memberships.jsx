@@ -35,14 +35,14 @@ function Memberships() {
               workstation with the chance to connect with a vibrant community of
               professionals.
             </p>
-            <p>
+            <span>
               Note: For teams of two request for the dual-desk configuration
-            </p>
+            </span>
             <a href="#contact">EXPLORE</a>
           </div>
           <div className="membership-card">
             <div className="membership-card-title">
-              <h2>STATION</h2>
+              <h2>FLEX SEAT</h2>
               <h4>Starting at $399</h4>
             </div>
             <p>
@@ -74,16 +74,12 @@ function Memberships() {
             <p>Padel Courts</p>
           </div>
           <div>
-            <img src="/m2.svg" alt="" />
-            <p>Phone Both</p>
+            <img src="/m4.svg" alt="" />
+            <p>Showers</p>
           </div>
           <div>
             <img src="/m3.svg" alt="" />
             <p>Rest Room</p>
-          </div>
-          <div>
-            <img src="/m4.svg" alt="" />
-            <p>Showers</p>
           </div>
         </div>
         <div className="includes-2">
@@ -103,6 +99,48 @@ function Memberships() {
             <img src="/m8.svg" alt="" />
             <p>Meeting Rooms</p>
           </div>
+          <div>
+            <img src="/m2.svg" alt="" />
+            <p>Phone Both</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="about" className="includes-container-mobile">
+        <h2>MEMBERSHIP INCLUDES</h2>
+        <div className="includes-mobile">
+        <div className="includes-card-mobile">
+          <img src="/m1.svg" alt="" />
+          <p>Padel Courts</p>
+        </div>
+        <div className="includes-card-mobile">
+          <img src="/m4.svg" alt="" />
+          <p>Showers</p>
+        </div>
+        <div className="includes-card-mobile">
+          <img src="/m3.svg" alt="" />
+          <p>Rest Room</p>
+        </div>
+        <div className="includes-card-mobile">
+          <img src="/m5.svg" alt="" />
+          <p>Bathrooms</p>
+        </div>
+        <div className="includes-card-mobile">
+          <img src="/m6.svg" alt="" />
+          <p>Coffee</p>
+        </div>
+        <div className="includes-card-mobile">
+          <img src="/m7.svg" alt="" />
+          <p>Community</p>
+        </div>
+        <div className="includes-card-mobile">
+          <img src="/m8.svg" alt="" />
+          <p>Meeting <br /> Rooms</p>
+        </div>
+        <div className="includes-card-mobile">
+          <img src="/m2.svg" alt="" />
+          <p>Phone Both</p>
+        </div>
         </div>
       </div>
     </>
