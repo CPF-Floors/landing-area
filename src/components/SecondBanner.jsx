@@ -4,12 +4,12 @@ function SecondBanner() {
       <div className="second-banner-text">
         <div>
           <h2>
-            Multi-use <br />
-            <span>spaces</span>
+            Multi-use 
+            <span> spaces</span>
           </h2>
           <p>
-            Welcome to a new way of thriving, where work, play,
-            and community come together.
+            Welcome to a new way of thriving, where work, play, and community
+            come together.
             <br />
           </p>
         </div>

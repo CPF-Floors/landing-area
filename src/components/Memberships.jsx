@@ -46,9 +46,7 @@ function Memberships() {
               <h4>Starting at $399</h4>
             </div>
             <p>
-              With the station membership, choose a different spot each day in
-              our private coworking areas, perfect for freelancers or those
-              seeking a dynamic workspace.
+            With the Flex Seat membership, enjoy the freedom to choose a new spot each day at our intimate work table, offering a semi-private atmosphere ideal for freelancers or professionals seeking a dynamic and flexible workspace.
             </p>
             <a href="#contact">EXPLORE</a>
           </div>
@@ -78,8 +76,8 @@ function Memberships() {
             <p>Showers</p>
           </div>
           <div>
-            <img src="/m3.svg" alt="" />
-            <p>Rest Room</p>
+            <img src="/m8.svg" alt="" />
+            <p>Meeting Rooms</p>
           </div>
         </div>
         <div className="includes-2">
@@ -96,12 +94,12 @@ function Memberships() {
             <p>Community</p>
           </div>
           <div>
-            <img src="/m8.svg" alt="" />
-            <p>Meeting Rooms</p>
-          </div>
-          <div>
             <img src="/m2.svg" alt="" />
             <p>Phone Both</p>
+          </div>
+          <div>
+            <img src="/m3.svg" alt="" />
+            <p>Rest Room</p>
           </div>
         </div>
       </div>
@@ -118,8 +116,8 @@ function Memberships() {
           <p>Showers</p>
         </div>
         <div className="includes-card-mobile">
-          <img src="/m3.svg" alt="" />
-          <p>Rest Room</p>
+          <img src="/m2.svg" alt="" />
+          <p>Phone Both</p>
         </div>
         <div className="includes-card-mobile">
           <img src="/m5.svg" alt="" />
@@ -138,8 +136,8 @@ function Memberships() {
           <p>Meeting <br /> Rooms</p>
         </div>
         <div className="includes-card-mobile">
-          <img src="/m2.svg" alt="" />
-          <p>Phone Both</p>
+          <img src="/m3.svg" alt="" />
+          <p>Rest Room</p>
         </div>
         </div>
       </div>
