@@ -53,7 +53,7 @@ function SecondBanner() {
             <p>
               Programs. Events. Motivation. Lessons. Sharing. A premium space
               where you&apos;re surrounded by peers who inspire and challenge
-              you to grow
+              you to grow.
             </p>
           </div>
         </div>
