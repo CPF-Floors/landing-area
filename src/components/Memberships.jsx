@@ -107,11 +107,7 @@ function Memberships() {
           </div>
           <div>
             <img src="/m2.svg" alt="" />
-            <p>Phone Both</p>
-          </div>
-          <div>
-            <img src="/m3.svg" alt="" />
-            <p>Rest Room</p>
+            <p>Phone Both&apos;s</p>
           </div>
         </div>
       </div>
@@ -129,7 +125,7 @@ function Memberships() {
           </div>
           <div className="includes-card-mobile">
             <img src="/m2.svg" alt="" />
-            <p>Phone Both</p>
+            <p>Phone Both&apos;s</p>
           </div>
           <div className="includes-card-mobile">
             <img src="/m5.svg" alt="" />
@@ -148,10 +144,6 @@ function Memberships() {
             <p>
               Meeting <br /> Rooms
             </p>
-          </div>
-          <div className="includes-card-mobile">
-            <img src="/m3.svg" alt="" />
-            <p>Rest Room</p>
           </div>
         </div>
       </div>
