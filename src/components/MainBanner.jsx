@@ -17,8 +17,8 @@ function MainBanner() {
             AREA is where your professional drive meets a <br /> space that
             supports your lifestyle goals
           </h2>
-          <a className="link" href="#contact">
-            Become a Founding Member
+          <a target="_blank" className="link" href="https://archieapp.co/area-centre-1/book-a-tour/schedule?embedded=true">
+            Book A Tour
           </a>
         </div>
       </div>

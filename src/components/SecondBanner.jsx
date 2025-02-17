@@ -14,7 +14,7 @@ function SecondBanner() {
           </p>
         </div>
         <div>
-          <a href="#contact">Find Your Membership</a>
+          <a href="#memberships">Memberships</a>
         </div>
       </div>
 
