@@ -7,7 +7,7 @@ function LastBanner() {
         <h2>INTERESTED</h2>
         <span>IN KNOWING</span>
         <h2>MORE?</h2>
-        <a target="_blank" href="https://archieapp.co/area-centre-1/book-a-tour/schedule?embedded=true">Fill out this Form </a>
+        <a target="_blank" href="https://archieapp.co/area-centre-1/leads-form-submission?embedded=true">Fill out this Form </a>
     </div> 
     
     </>

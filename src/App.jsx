@@ -1,6 +1,6 @@
 import './App.css'
 import Footer from './components/Footer'
-// import FormBanner from './components/FormBanner'
+import FormBanner from './components/FormBanner'
 import LastBanner from './components/LastBanner'
 import MainBanner from './components/MainBanner'
 import Memberships from './components/Memberships'
@@ -13,7 +13,7 @@ function App() {
         <MainBanner />
         <SecondBanner />
         <Memberships />
-        {/* <FormBanner /> */}
+        <FormBanner />
         <LastBanner />
         <Footer />
     </>

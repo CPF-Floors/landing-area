@@ -11,7 +11,7 @@ function Footer() {
             <img src="/mail.svg" alt="" />
             <h3>Contact Us</h3>
             <a href="mailto:contact@areacentre.com">contact@areacentre.com</a>
-            <p onClick={() => setTerms(!terms)}>Our Terms & Conditions</p>
+            <p onClick={() => setTerms(!terms)}>Privacy Policy</p>
         </div>
     </footer>
 
