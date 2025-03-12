@@ -22,7 +22,7 @@ function Memberships() {
                 team looking to have their own space.
               </p>
             </div>
-            <a target="_blank" href="https://archieapp.co/area-centre-1/book-a-tour/schedule?embedded=true">EXPLORE</a>
+            <a target="_blank" href="#contact">Learn More</a>
           </div>
           <div className="membership-card">
             <div>
@@ -40,7 +40,7 @@ function Memberships() {
               </span>
             </div>
 
-            <a target="_blank" href="https://archieapp.co/area-centre-1/book-a-tour/schedule?embedded=true">EXPLORE</a>
+            <a target="_blank" href="#contact">Learn More</a>
           </div>
           <div className="membership-card">
             <div>
@@ -55,7 +55,7 @@ function Memberships() {
                 seeking a dynamic and flexible workspace.
               </p>
             </div>
-            <a target="_blank" href="https://archieapp.co/area-centre-1/book-a-tour/schedule?embedded=true">EXPLORE</a>
+            <a target="_blank" href="#contact">Learn More</a>
           </div>
           <div className="membership-card">
             <div>
@@ -69,7 +69,7 @@ function Memberships() {
                 fixed desk.
               </p>
             </div>
-            <a target="_blank" href="https://archieapp.co/area-centre-1/book-a-tour/schedule?embedded=true">EXPLORE</a>
+            <a target="_blank" href="#contact">Learn More</a>
           </div>
         </div>
       </div>
